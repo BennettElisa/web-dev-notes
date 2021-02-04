@@ -68,7 +68,7 @@ Up until now, as Angela explained, JavaScript has not been able to go outside th
 
 There are various situations when you need to write code that interacts DIRECTLY with the computer independent of what is happening in the browser. **This is what Node.js allows us to do.**
 
-It takes JavaScript OUT OF THE BROWSER therefore allowing it to interact DIRECTLY with the hardware of the computer. - ATOM (the code editor) is based on Node.js - Allows developers to build full applications that work outside of the browser and on computer - used to program desktop applications - also used to run node.js on servers
+It takes JavaScript OUT OF THE BROWSER therefore allowing it to interact DIRECTLY with the hardware of the computer. A good example is --> ATOM (the code editor) which is based on Node.js. So in short, Node.js allows developers to build full applications that work outside of the browser and on computer and is used to program desktop applications amongst other things such as interating with servers.
 
 The fact that Node.js can run JavaScript on your computer or on someone else's computer i.e a SERVER is what makes this so powerful.
 

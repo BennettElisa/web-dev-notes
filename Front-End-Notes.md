@@ -12,4 +12,4 @@ Front-End Technologies:
 - Bootstrap
   - Framework
 
-![image](images/front_end.png)
+<!-- ![image](images/front_end.png) -->

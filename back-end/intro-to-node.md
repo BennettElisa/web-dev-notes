@@ -1,3 +1,14 @@
+# Run code on computer through the terminal
+
+- Navigate to the folder with your index.js folder in terminal
+- Put a console.log('Running') (or whatever u want) into your index.js folder
+- From the command line type **node index.js**
+- You should see it print your console.log string
+- Running
+  ![image](insert screen shot of terminal here )
+
+- This simply says hey node run this file
+
 ## Node Read Evaluation Print Loops (REPL)
 
 - Allows you to excute code in bite size chuncks
@@ -8,10 +19,16 @@
 
   ![REPL](images/REPL-bracket.png)
 
+Once your inside the REPL you can execute all kinds of code from the command line. Try it! Functions, console.log etc.
+
+EXIT REPL --> control + c TWICE
+
+# Native Node Modulos
+
 Now, we'll look at some **native node modulos** which simply means **packages of code** that has be **bundled** in to Node.js to make our lives easier.
 
 When we install Node.js it already comes bundled with many built in modulos. These modulos are **libraries of code** that the design team wrote to help us with day to day things that we want to do.
-
+m
 We can use Node.js to get direct access directly to the files on the local computer.
 
 To use different modulos in our code we have to use the **require** keyword.
@@ -26,11 +43,16 @@ Next we'll look at **external modulos**
 
 ## External Modulos - NPM Package Manager
 
+### Library that other people wrote
+
 **Node Package Manager**
+
+- npm is a package manager for external package build by other people and not within the native node modulos.
+- world's largest collection of this type of code
 
 - bites of reusable code that someone else wrote
 - using npm you can incorporate the packages into your our code
-- npm COMES WITH NODE.JS
+- npm **COMES WITH NODE.JS** it's bundled with Node.js
 
 We can now use **npm init** to create a **package.json** which is our own package. When we run **npm init** in our Command Line it will ask us a series of questions about our package. Then, you will see the new **package.json** file that holds the information we entered in an object literal.
 
